@@ -1,5 +1,7 @@
 import { registerRootComponent } from 'expo';
+import { NativeModules } from 'react-native';
 
+module.exports = NativeModules.Sms;
 import App from './App';
 
 

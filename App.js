@@ -1,10 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import ABC from "./CustomModule";
+// import Sms from "./index";
 
 export default function App() {
-  ABC.show();
+  // Sms.show();
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>

@@ -59,7 +59,7 @@ public class SmsModule extends ReactContextBaseJavaModule { //implements LoaderM
 
     @Override
     public String getName() {
-        return "ABC";
+        return "Sms";
     }
 
     @ReactMethod
